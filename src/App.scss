@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+}
+
+.tableContainer {
+    height: 100%;
+    margin: 20vh auto;
+    width: 75%;
+}
+
+.title {
+    margin: 20vh 25vw 0;
+    text-align: center;
+
+    h1 {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+}
+
+.fetchMore {
+    background-color: green;
+    width: 100%;
+    max-width: 1100px;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0 0;
+    transition: 0.3s;
+}
+
+.isLoading {
+    background-color: rgb(0, 76, 0);
+    transition: 0.3s;
+}
