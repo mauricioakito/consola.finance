@@ -2,16 +2,7 @@ import React from "react";
 import * as solanaWeb3 from '@solana/web3.js';
 import { ADDRESS, ENDPOINT } from "./Constraints";
 
-interface signatureStatus {
-  blockTime: number;
-  confirmationStatus: string;
-  err: null;
-  memo: null;
-  signature: string;
-  slot: number;
-}
-
-export const getData = () => {
+export const GetData = () => {
 
   const searchAddress = ADDRESS;
   const endpoint = ENDPOINT;

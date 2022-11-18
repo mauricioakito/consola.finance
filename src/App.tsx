@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getData } from "./utils/getData";
+import { GetData } from "./utils/GetData";
 import { Table } from "./components/Tables/Table";
 import classNames from "classnames";
 import { RequestTypes } from "./Types/Request";
@@ -12,7 +12,7 @@ function App() {
   const handleFetch = async () => {
     setIsLoading(true);
      const oldData = data && data;
-    const newFetchedData = await getData();
+    const newFetchedData = await GetData();
     if (newFetchedData && oldData) {
       const newData: any = [...oldData, ...newFetchedData];
       setData(newData);
@@ -21,7 +21,7 @@ function App() {
   };
 
   useEffect(() => {
-    getData()
+    GetData()
       .then((value: ConfirmedSignatureInfo[]) => {
         setData(value);
       })
