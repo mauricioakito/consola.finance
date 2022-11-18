@@ -1,8 +1,8 @@
 import "./Table.scss";
-import "./assets/bootstrap.min.css";
-import "./assets/font-awesome.min.css";
-import "./assets/animate.css";
-import "./assets/select2.min.css";
-// import "./assets/perfect-scrollbar.css";
-import "./assets/util.css";
-import "./assets/main.css";
+import "./styles/bootstrap.min.css";
+import "./styles/font-awesome.min.css";
+import "./styles/animate.css";
+import "./styles/select2.min.css";
+// import "./styles/perfect-scrollbar.css";
+import "./styles/util.css";
+import "./styles/main.css";

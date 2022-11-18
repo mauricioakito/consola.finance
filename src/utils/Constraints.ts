@@ -1,3 +1,2 @@
-export const TOKEN = 'tokens';
-export const NFT = 'nft';
-export const BALANCE = 'balance';
+export const ADDRESS = 'rFqFJ9g7TGBD8Ed7TPDnvGKZ5pWLPDyxLcvcH2eRCtt';
+export const ENDPOINT = 'https://serene-palpable-valley.solana-mainnet.discover.quiknode.pro/09f83a19be48bc04f7f7e45dba60fee9b9868a2d/';
