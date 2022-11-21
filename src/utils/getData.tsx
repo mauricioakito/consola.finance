@@ -2,7 +2,7 @@ import React from "react";
 import * as solanaWeb3 from '@solana/web3.js';
 import { ADDRESS, ENDPOINT } from "./Constraints";
 
-export const GetData = () => {
+export const getData = () => {
 
   const searchAddress = ADDRESS;
   const endpoint = ENDPOINT;
@@ -26,6 +26,8 @@ export const GetData = () => {
       signatureList,
       { maxSupportedTransactionVersion: 0 }
     );
+
+      console.log(transactionDetails)
 
     response = [...transactionList]
 
